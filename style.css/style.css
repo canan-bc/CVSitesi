@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a2e;
+  color: white;
+  min-height: 100vh;
+}
+
+/* ========== Navigation Bar ========== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+
+  background-color: #191929;
+}
+
+.logo h2 {
+  color: #c084fc;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.star-button {
+  background-color: #c084fc;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+/* ========== Ana Sayfa (Home Section) ========== */
+.home-section {
+  padding: 50px;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-section {
+  flex: 1;
+}
+
+.greeting {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.purple {
+  color: #c084fc;
+}
+
+.title {
+  font-size: 32px;
+  color: #c084fc;
+  margin-top: 30px;
+}
+
+/* ========== Görsel Bölümü ========== */
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.developer-image {
+  text-align: center;
+}
+
+.computer {
+  border-radius: 15%;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.profil {
+  border-radius: 20%;
+  width: 370px;
+  height: 470px;
+}
+
+.profil2 {
+  border-radius: 5%;
+  width: 400px;
+  /* Çapı 250px */
+
+}
+
+.person {
+  font-size: 80px;
+
+}
+
+/* ========== Hakkımda Bölümü ========== */
+.about-section {
+  padding: 100px 50px;
+  background-color: #16213e;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.about-text {
+  flex: 2;
+
+}
+
+.about-text h2 {
+  font-size: 42px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+.avatar {
+  font-size: 100px;
+}
+
+/* ========== Sosyal Medya Bölümü ========== */
+.social-section {
+  padding: 80px 50px;
+  text-align: center;
+  background-color: #1a1a2e;
+}
+
+.social-section h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.social-section p {
+  font-size: 18px;
+  margin-bottom: 40px;
+
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-icon {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.669);
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(152, 149, 149, 0.326);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(25px);
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #292941;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.btn-light {
+  background-color: #ab52ff6b;
+  color: white;
+  border: none;
+}
